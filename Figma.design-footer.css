@@ -1,5 +1,5 @@
 .footer{
-  width: 1000px;
+  width: 1150px;
   background-color: whitesmoke;
   margin-right: auto;
   margin-left: auto;
@@ -82,8 +82,8 @@
 }
 
 .image11{
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   border-radius: 20px;
   object-fit: cover;
   margin-bottom: 15px;

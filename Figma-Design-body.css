@@ -1,7 +1,7 @@
 .image1{
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
+  width: 96px;
+  height: 110px;
+  border-radius: 16px;
   object-fit: cover;
   margin-left: 250px;
   display: block;
@@ -27,19 +27,19 @@
 }
 
 .image2{
-  width: 150px;
-  height: 150px;
-  border-radius: 25px;
+  width: 132px;
+  height: 132px;
+  border-radius: 32px;
   object-fit: cover;
   position: absolute;
-  right: 150px;
+  right: 200px;
   top: 150px;
 }
 
 .image3{
-  width: 150px;
-  height: 150px;
-  border-radius: 25px;
+  width: 164px;
+  height: 164px;
+  border-radius: 32px;
   object-fit: cover;
   display: block;
   margin-left: 100px;
@@ -80,8 +80,8 @@
 }
 
 .image4{
-  width: 180px;
-  height: 180px;
+  width: 196px;
+  height: 196px;
   border-radius: 25px;
   object-fit: cover;
   display: block;
@@ -90,9 +90,9 @@
 }
 
 .image5{
-  width: 250px;
-  height: 250px;
-  border-radius: 40px;
+  width: 264px;
+  height: 264px;
+  border-radius: 30px;
   object-fit: cover;
   position: absolute;
   right: 190px;
@@ -119,17 +119,16 @@ h2{
 }
 
 .image-grid{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  display: inline-flex;
+  align-items: flex-start;
   margin-top: 100px;
+  gap: 48px;
 }
 
 .image6{
-  width: 150px;
-  height: 150px;
-  border-radius: 25px;
+  width: 240px;
+  height: 240px;
+  border-radius: 40px;
   object-fit: cover;
 }
 
@@ -140,18 +139,16 @@ h2{
 }
 
 .image-grid2{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  display: inline-flex;
+  align-items: flex-start;
+  margin-top: 100px;
+  gap: 48px;
 }
 
 .image7{
-  width: 150px;
-  height: 150px;
-  border-radius: 25px;
+  width: 240px;
+  height: 240px;
+  border-radius: 40px;
   object-fit: cover;
 }
 
@@ -162,8 +159,8 @@ h2{
 }
 
 .summaryImage8{
-    width: 270px;
-    height: 400px;
+    width: 322px;
+    height: 512px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,15 +171,15 @@ h2{
     border-radius: 30px;
     padding-top: 10px;
     box-shadow: 0px 80px rgba(280, 280, 280, 0.05);
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 .image8{
-    width: 250px;
-    height: 250px;
+    width: 302px;
+    height: 302px;
     object-fit: cover;
     margin-bottom: 0px;
-    border-radius: 40px;
+    border-radius: 32px;
 }
 
 
@@ -227,8 +224,8 @@ h2{
 }
 
 .summaryImage9{
-  width: 270px;
-  height: 400px;
+  width: 322px;
+  height: 512px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,11 +241,12 @@ h2{
 }
 
 .image9{
-  width: 250px;
-  height: 250px;
+  width: 302px;
+  height: 302px;
   object-fit: cover;
   margin-bottom: 0px;
-  border-radius: 40px;
+  border-radius: 32px;
+  flex-shrink: 0;
 }
 
 .image9-header{
@@ -269,8 +267,8 @@ h2{
 }
 
 .summaryImage10{
-  width: 270px;
-  height: 400px;
+  width: 322px;
+  height: 512px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,11 +287,11 @@ h2{
 }
 
 .image10{
-  width: 250px;
-  height: 250px;
+  width: 302px;
+  height: 302px;
   object-fit: cover;
   margin-bottom: 0px;
-  border-radius: 40px;
+  border-radius: 32px;
 }
 
 .image10-header{
